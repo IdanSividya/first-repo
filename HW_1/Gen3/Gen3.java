@@ -1,3 +1,4 @@
+// The following program generates three random integers, each in a given range, prints them, and then prints the minimal number that was generated
 public class Gen3
 {
 	public static void main(String[] args)

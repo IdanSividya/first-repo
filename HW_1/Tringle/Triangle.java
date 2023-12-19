@@ -1,3 +1,4 @@
+//The following program tests if three given integers form a triangle. 
 public class Triangle
 {
 	public static void main(String[] args)

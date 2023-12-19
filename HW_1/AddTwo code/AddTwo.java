@@ -1,3 +1,4 @@
+// The following program adds two given integers and prints the result
 public class AddTwo
 {
 	public static void main(String[] args)

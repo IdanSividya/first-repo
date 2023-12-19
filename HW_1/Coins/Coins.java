@@ -1,18 +1,19 @@
+// The following program gets number of cents, and prints how to represent this quantity using as many quarters as possible plus the remainder in cents.
 public class Coins
 {
 	public static void main(String[] args)
 	{
 		int numCents = Integer.parseInt(args[0]);
-		int cent = 1;
-		int quater = 25;
 		int countQuater = 0;
 		int countCents = 0;
-
+// check the max quarters that the user can use.
 		while (numCents >= 25)
 		{
 			numCents = numCents - 25;
 			countQuater=countQuater + 1;
 		}
+// check the remainder in cents.
+
 		while (numCents > 0)
 		{
 			numCents = numCents - 1;
